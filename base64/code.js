@@ -6,6 +6,7 @@ function encriptar(elemento){
     document.getElementsByTagName("input")[1].value = mensajeCodificado;
     
 }
+
 function desencriptar(elemento){
     let palabra = document.getElementsByTagName("input")[1].value;
     let mensajeDeCodificado = atob(palabra);
