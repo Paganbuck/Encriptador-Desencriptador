@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar en Base 64</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <h1>Encriptador de textos app</h1>
+    <!-- <form action=""> -->
+        <p><label for="texto">Escriba un texto sin acentos.</label></p>
+        <p><input type="text" id="mensaje" size="25" placeholder="Ingrese el texto aquí"></p>
+        <p><button class="btn btn-info"type="submit" onclick="encriptar(this)">Encriptar</button></p>
+        <p><button class="btn btn-danger"type="submit" onclick="desencriptar(this)">Desencriptar</button></p>
+
+        <h3>Mensaje encriptado|desencriptado</h3>
+        <p><input type="text" id="texto"></p>
+        <p><button class="btn btn-success" id="copiador">Copiar</button></p>
+        
+    <!-- </form> -->
+    
+    <script src="code.js"></script>
+</body>
+</html>
